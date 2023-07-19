@@ -1,4 +1,4 @@
 - name: cuda-toolkit
   uses: Jimver/cuda-toolkit@v0.2.11
 
-- run: echo "Installed cuda version is: ${{steps.cuda-toolkit.outputs.cuda}}"
+  run: echo "Installed cuda version is: ${{steps.cuda-toolkit.outputs.cuda}}"
