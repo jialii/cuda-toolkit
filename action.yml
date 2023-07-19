@@ -3,7 +3,6 @@ steps:
   id: cuda-toolkit
   with:
     cuda: '12.1.0'
-    
 name: 'cuda-toolkit'
 description: 'Installs NVIDIA CUDA Toolkit and adds it to PATH'
 author: 'Jim Verheijde'
