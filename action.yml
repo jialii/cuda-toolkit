@@ -1,7 +1,6 @@
 name: 'cuda-toolkit'
 uses: Jimver/cuda-toolkit@v0.2.11
-description: 'Installs NVIDIA CUDA Toolkit and adds it to PATH'
-author: 'Jim Verheijde'
+
 inputs:
   cuda:
     description: 'Cuda version'
